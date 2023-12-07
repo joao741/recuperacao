@@ -14,7 +14,7 @@
         
         $linha = $result->fetch_assoc(); //pegar a próxima linha de dados
 
-        echo "<p>Nome: " . $linha['nome'] . "</p> <p>E-mail: " . $linha['descrição'] . "</p>";
+        echo "<p>Nome: " . $linha['nome'] . "</p> <p>Descrição do Produto: " . $linha['descrição'] . "</p>";
 
     }
     else
